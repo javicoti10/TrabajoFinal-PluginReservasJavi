@@ -1,0 +1,20 @@
+#calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#calendar-table th, #calendar-table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+}
+
+#calendar-table th {
+  background-color: #f2f2f2;
+}
+
+#prev-month, #next-month {
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
